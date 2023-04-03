@@ -5,7 +5,6 @@ jobs:
     # image to run test from
     docker:
       - image: circleci/openjdk:8-jdk-stretch
-    working_directory: /pom
     steps:
       - checkout  # copy the project into image
       - run: mvn test
