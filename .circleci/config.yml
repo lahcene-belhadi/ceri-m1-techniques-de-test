@@ -4,7 +4,7 @@ jobs:
   build:
     # image to run test from
     docker:
-      - image: circleci/openjdk:11.0.11-jdk-stretch
+      - image: openjdk:11
     steps:
       - checkout  # copy the project into image
       - run: mvn test
