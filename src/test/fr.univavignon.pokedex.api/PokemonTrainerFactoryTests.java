@@ -1,8 +1,7 @@
 import main.java.fr.univavignon.pokedex.api.*;
-import org.junit.Test;
-import org.junit.Before;
 import org.junit.Assert;
-
+import org.junit.Before;
+import org.junit.Test;
 import org.mockito.Mockito;
 
 public class PokemonTrainerFactoryTests {

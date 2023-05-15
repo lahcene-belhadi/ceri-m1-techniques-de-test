@@ -1,12 +1,10 @@
 import main.java.fr.univavignon.pokedex.api.IPokedex;
-
 import main.java.fr.univavignon.pokedex.api.IPokedexFactory;
 import main.java.fr.univavignon.pokedex.api.IPokemonFactory;
 import main.java.fr.univavignon.pokedex.api.IPokemonMetadataProvider;
 import org.junit.Assert;
-import org.junit.Test;
 import org.junit.Before;
-
+import org.junit.Test;
 import org.mockito.Mockito;
 
 public class PokedexTests {

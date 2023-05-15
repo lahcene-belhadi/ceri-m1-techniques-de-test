@@ -1,10 +1,8 @@
 import main.java.fr.univavignon.pokedex.api.IPokemonMetadataProvider;
 import main.java.fr.univavignon.pokedex.api.PokemonMetadata;
-
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mockito;
 import org.mockito.Mockito;
 
 
