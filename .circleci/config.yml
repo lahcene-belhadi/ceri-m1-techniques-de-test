@@ -8,7 +8,29 @@ jobs:
     steps:
       - checkout  # copy the project into image
       - run: mvn test
-      
+
+      # Checkout the code as the first step.
+      - checkout
+      # Use mvn clean and package as the standard maven build phase
+      - run:
+          name: Build
+          command: mvn -B -DskipTests clean package
+      # Then run your tests!
+      - run:
+          name: Test
+          command: mvn test
+
+      - store_artifacts:
+          path: target/site/jacoco/jacoco.xml
+          destination: /tmp/artifacts
+
+      - run:
+          name: Upload coverage data to Codecov
+          command: bash <(curl -s https://codecov.io/bash) -t ${CODECOV_TOKEN}
+
+      - run:
+          name: Code Coverage
+          command: curl -Os https://uploader.codecov.io/latest/linux/codecov; chmod +x codecov; ./codecov
 
 workflows:
   version: 2.1
