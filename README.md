@@ -1,3 +1,7 @@
+[![codecov](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=3AQZXYLFQW)](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test) [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master)
+
+Belhad Lahcène - Groupe ILSEN Alt 2
+
 # UCE Génie Logiciel Avancé : Techniques de tests
 
 ## Introduction
