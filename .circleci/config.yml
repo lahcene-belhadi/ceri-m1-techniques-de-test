@@ -36,6 +36,11 @@ jobs:
         name: javadoc
         command: mvn javadoc:javadoc
 
+
+      - add_ssh_keys:
+          fingerprints:
+            - "01:76:67:56:8a:ac:ef:e8:5b:b5:94:f9:de:ce:9e:1e"
+
       - codecov/upload
 
       - run:
