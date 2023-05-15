@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=3AQZXYLFQW)](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test)
+
 # UCE Génie Logiciel Avancé : Techniques de tests
 
 ## Introduction
