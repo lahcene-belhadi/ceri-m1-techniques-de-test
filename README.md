@@ -1,4 +1,4 @@
-[![codecov](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=3AQZXYLFQW)](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test) [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master)
+[![codecov](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=3AQZXYLFQW)](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test) [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master) ![Checkstyle](target/site/badges/checkstyle-result.svg)
 
 Belhad Lahcène - Groupe ILSEN Alt 2
 
