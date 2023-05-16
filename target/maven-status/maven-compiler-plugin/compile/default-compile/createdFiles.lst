@@ -9,3 +9,4 @@ main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.class
 main/java/fr/univavignon/pokedex/api/Team.class
 main/java/fr/univavignon/pokedex/api/Pokemon.class
 main/java/fr/univavignon/pokedex/api/PokedexException.class
+main/java/fr/univavignon/pokedex/api/Pokedex.class
