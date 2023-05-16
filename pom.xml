@@ -124,7 +124,7 @@
         </executions>
       </plugin>
     </plugins>
-    <testSourceDirectory>src/test/fr.univavignon.pokedex.api</testSourceDirectory>
+    <testSourceDirectory>src/test/java/fr.univavignon.pokedex.api</testSourceDirectory>
   </build>
 
   <dependencies>

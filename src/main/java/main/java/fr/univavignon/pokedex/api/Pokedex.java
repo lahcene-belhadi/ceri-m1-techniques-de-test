@@ -36,28 +36,53 @@ public class Pokedex implements IPokedex {
         return pokedex.size();
     }
 
+    /**
+     * Returns the requested Pokemon, throws a PokedexException otherwise
+     *
+     * @param id Unique pokedex relative identifier.
+     * @return the requested Pokemon
+     * @throws PokedexException if the Pokemon cannot be found
+     */
     @Override
     public Pokemon getPokemon(int id) throws PokedexException {
-        return null;
+        if (id > pokedex.size() - 1) {
+            throw new PokedexException("The Pokemon with id " + id + "does not exist.");
+        }
+
+        return pokedex.get(id);
     }
 
+    /**
+     * Returns the pokedex
+     *
+     * @return the pokedex
+     */
     @Override
     public List<Pokemon> getPokemons() {
-        return null;
+        return pokedex;
     }
 
+    /**
+     * Orders pokemon by name and returns the sorted list
+     *
+     * @param order Comparator instance used for sorting the created view.
+     * @return the name sorted list
+     */
     @Override
     public List<Pokemon> getPokemons(Comparator<Pokemon> order) {
-        return null;
+        pokedex.sort(order);
+        return pokedex;
     }
 
     @Override
     public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
-        return null;
+        return new Pokemon(index, "Dummy", 0, 0, 0, cp, hp, dust, candy, 0);
     }
 
     @Override
     public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
+        Pokemon pokemon = getPokemon(index);
+
         return null;
     }
 }

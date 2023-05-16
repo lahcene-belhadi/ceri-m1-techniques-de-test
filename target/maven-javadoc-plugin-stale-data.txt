@@ -1,0 +1,67 @@
+@options
+@packages
+-classpath
+'/home/drlarck/.m2/repository/com/puppycrawl/tools/checkstyle/10.1/checkstyle-10.1.jar:/home/drlarck/.m2/repository/info/picocli/picocli/4.6.3/picocli-4.6.3.jar:/home/drlarck/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar:/home/drlarck/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/home/drlarck/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/drlarck/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/drlarck/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/drlarck/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/drlarck/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/drlarck/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/drlarck/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/home/drlarck/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/home/drlarck/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/drlarck/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar:/home/drlarck/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar:/home/drlarck/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar:/home/drlarck/.m2/repository/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar:/home/drlarck/.m2/repository/org/mockito/mockito-inline/2.13.0/mockito-inline-2.13.0.jar:/home/drlarck/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tdt-project 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tdt-project 1.0-SNAPSHOT API'
+main.java.fr.univavignon.pokedex.api
+/home/drlarck/.m2/repository/com/puppycrawl/tools/checkstyle/10.1/checkstyle-10.1.jar = 1684168548844
+/home/drlarck/.m2/repository/info/picocli/picocli/4.6.3/picocli-4.6.3.jar = 1684168548596
+/home/drlarck/.m2/repository/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar = 1684168548624
+/home/drlarck/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar = 1684166847662
+/home/drlarck/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar = 1684166847674
+/home/drlarck/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar = 1684167118778
+/home/drlarck/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar = 1684168548856
+/home/drlarck/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar = 1684168548616
+/home/drlarck/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1684168548804
+/home/drlarck/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar = 1684168548908
+/home/drlarck/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar = 1684168548900
+/home/drlarck/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar = 1684168548872
+/home/drlarck/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar = 1684168548880
+/home/drlarck/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar = 1684168548888
+/home/drlarck/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar = 1684168548968
+/home/drlarck/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar = 1684168268338
+/home/drlarck/.m2/repository/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar = 1684168549504
+/home/drlarck/.m2/repository/org/mockito/mockito-inline/2.13.0/mockito-inline-2.13.0.jar = 1684169741126
+/home/drlarck/.m2/repository/org/apache/commons/commons-collections4/4.0/commons-collections4-4.0.jar = 1684169741146
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java = 1684174014371
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/help-doc.html = 1684258731718
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/search.js = 1684258731722
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/element-list = 1684258731562
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/overview-tree.html = 1684258731674
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/module-search-index.js = 1684258731690
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/jquery-ui.overrides.css = 1684258731738
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/index-all.html = 1684258731710
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/member-search-index.js = 1684258731694
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/allclasses-index.html = 1684258731690
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/allpackages-index.html = 1684258731690
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/stylesheet.css = 1684258731718
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/package-search-index.js = 1684258731694
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/copy.svg = 1684258731718
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/serialized-form.html = 1684258731602
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/tag-search-index.js = 1684258731694
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/type-search-index.js = 1684258731694
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/script.js = 1684258731718
+/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/target/site/apidocs/index.html = 1684258731710

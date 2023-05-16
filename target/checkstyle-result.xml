@@ -25,6 +25,30 @@
 </file>
 <file name="/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java/main/java/fr/univavignon/pokedex/api/IPokedex.java">
 </file>
+<file name="/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java/main/java/fr/univavignon/pokedex/api/Pokedex.java">
+<error line="8" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="19" severity="error" message="Variable &apos;pokedex&apos; must be private and have accessor methods." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="10" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="17" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="27" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="34" column="27" severity="error" message="Parameter pokemon should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" column="31" severity="error" message="Parameter id should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="49" severity="error" message="Line is longer than 80 characters (found 88)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="65" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="72" column="38" severity="error" message="Parameter order should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="77" column="5" severity="error" message="Class &apos;Pokedex&apos; looks like designed for extension (can be subclassed), but the method &apos;createPokemon&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Pokedex&apos; final or making the method &apos;createPokemon&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="78" severity="error" message="Line is longer than 80 characters (found 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="78" column="34" severity="error" message="Parameter index should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="45" severity="error" message="Parameter cp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="53" severity="error" message="Parameter hp should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="61" severity="error" message="Parameter dust should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="78" column="71" severity="error" message="Parameter candy should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="82" column="5" severity="error" message="Class &apos;Pokedex&apos; looks like designed for extension (can be subclassed), but the method &apos;getPokemonMetadata&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Pokedex&apos; final or making the method &apos;getPokemonMetadata&apos; static/final/abstract/empty, or adding allowed annotation for the method." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="83" severity="error" message="Line is longer than 80 characters (found 82)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="83" column="47" severity="error" message="Parameter index should be final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
 <file name="/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java/main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java">
 </file>
 <file name="/home/drlarck/University/s8/technique_test/ceri-m1-techniques-de-test/src/main/java/main/java/fr/univavignon/pokedex/api/PokemonComparators.java">

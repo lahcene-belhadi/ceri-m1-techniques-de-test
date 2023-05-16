@@ -1,5 +1,5 @@
-PokedexFactoryTests.class
-PokedexTests.class
-PokemonTrainerFactoryTests.class
-PokemonFactoryTests.class
-PokemonMetadataProviderTests.class
+fr/univavignon/pokedex/api/PokedexTests.class
+fr/univavignon/pokedex/api/PokemonFactoryTests.class
+fr/univavignon/pokedex/api/PokedexFactoryTests.class
+fr/univavignon/pokedex/api/PokemonMetadataProviderTests.class
+fr/univavignon/pokedex/api/PokemonTrainerFactoryTests.class
