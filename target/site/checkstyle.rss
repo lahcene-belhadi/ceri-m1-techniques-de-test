@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2023</copyright>
     <item>
-      <title>File: 12,
-             Errors: 60,
+      <title>File: 16,
+             Errors: 97,
              Warnings: 0,
              Infos: 0
       </title>
@@ -60,20 +60,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.Pokemon.java">main/java/fr/univavignon/pokedex/api/Pokemon.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  11
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.IPokemonMetadataProvider.java">main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.java</a>
                 </td>
                 <td>
@@ -102,7 +88,63 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.IPokemonFactory.java">main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</a>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonTrainer.java">main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonFactory.java">main/java/fr/univavignon/pokedex/api/PokemonFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonTrainerFactory.java">main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonComparators.java">main/java/fr/univavignon/pokedex/api/PokemonComparators.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.IPokedex.java">main/java/fr/univavignon/pokedex/api/IPokedex.java</a>
                 </td>
                 <td>
                   0
@@ -116,7 +158,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonTrainer.java">main/java/fr/univavignon/pokedex/api/PokemonTrainer.java</a>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonMetadataProvider.java">main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.java</a>
                 </td>
                 <td>
                   0
@@ -125,7 +167,49 @@ under the License.
                   0
                 </td>
                 <td>
-                  7
+                  10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.Pokemon.java">main/java/fr/univavignon/pokedex/api/Pokemon.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokedexFactory.java">main/java/fr/univavignon/pokedex/api/PokedexFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.IPokemonFactory.java">main/java/fr/univavignon/pokedex/api/IPokemonFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
               </tr>
                           <tr>
@@ -167,35 +251,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.PokemonComparators.java">main/java/fr/univavignon/pokedex/api/PokemonComparators.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
                   2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#main.java.fr.univavignon.pokedex.api.IPokedex.java">main/java/fr/univavignon/pokedex/api/IPokedex.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
                 </td>
               </tr>
                           <tr>
@@ -209,7 +265,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  22
+                  33
                 </td>
               </tr>
                       </tbody>

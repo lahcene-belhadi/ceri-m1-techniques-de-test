@@ -2,11 +2,15 @@ main/java/fr/univavignon/pokedex/api/PokemonMetadata.class
 main/java/fr/univavignon/pokedex/api/PokemonTrainer.class
 main/java/fr/univavignon/pokedex/api/IPokedex.class
 main/java/fr/univavignon/pokedex/api/Team.class
+main/java/fr/univavignon/pokedex/api/PokemonTrainerFactory.class
 main/java/fr/univavignon/pokedex/api/Pokemon.class
+main/java/fr/univavignon/pokedex/api/PokedexFactory.class
+main/java/fr/univavignon/pokedex/api/PokemonMetadataProvider.class
 main/java/fr/univavignon/pokedex/api/IPokemonFactory.class
 main/java/fr/univavignon/pokedex/api/IPokemonMetadataProvider.class
 main/java/fr/univavignon/pokedex/api/PokemonComparators.class
 main/java/fr/univavignon/pokedex/api/IPokedexFactory.class
 main/java/fr/univavignon/pokedex/api/IPokemonTrainerFactory.class
+main/java/fr/univavignon/pokedex/api/PokemonFactory.class
 main/java/fr/univavignon/pokedex/api/PokedexException.class
 main/java/fr/univavignon/pokedex/api/Pokedex.class

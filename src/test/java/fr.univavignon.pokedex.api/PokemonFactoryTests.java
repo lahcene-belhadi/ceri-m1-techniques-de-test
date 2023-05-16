@@ -1,8 +1,5 @@
 package fr.univavignon.pokedex.api;
 
-import main.java.fr.univavignon.pokedex.api.IPokemonFactory;
-import main.java.fr.univavignon.pokedex.api.Pokedex;
-import main.java.fr.univavignon.pokedex.api.Pokemon;
 import main.java.fr.univavignon.pokedex.api.PokemonFactory;
 import org.junit.Assert;
 import org.junit.Before;
