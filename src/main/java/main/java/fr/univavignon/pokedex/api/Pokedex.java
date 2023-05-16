@@ -6,11 +6,15 @@ import java.util.List;
 
 public class Pokedex implements IPokedex {
     List<Pokemon> pokedex;
+    PokemonMetadataProvider pokemonMetadataProvider;
+    PokemonFactory pokemonFactory;
 
     /**
      * Creates an instance of Pokedex
      */
-    public Pokedex() {
+    public Pokedex(PokemonMetadataProvider pokemonMetadataProvider, PokemonFactory pokemonFactory) {
+        this.pokemonMetadataProvider = pokemonMetadataProvider;
+        this.pokemonFactory = pokemonFactory;
         pokedex = new ArrayList<>();
     }
 
@@ -76,13 +80,11 @@ public class Pokedex implements IPokedex {
 
     @Override
     public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
-        return new Pokemon(index, "Dummy", 0, 0, 0, cp, hp, dust, candy, 0);
+        return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
     @Override
     public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
-        Pokemon pokemon = getPokemon(index);
-
-        return null;
+       return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 }

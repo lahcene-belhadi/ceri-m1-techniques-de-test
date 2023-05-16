@@ -16,7 +16,9 @@ public class PokedexTests {
 
     @Before
     public void init() throws Exception {
-        pokedex = new Pokedex();
+        PokemonMetadataProvider pokemonMetadataProvider = new PokemonMetadataProvider();
+        PokemonFactory pokemonFactory = new PokemonFactory();
+        pokedex = new Pokedex(pokemonMetadataProvider, pokemonFactory);
     }
 
     @Test

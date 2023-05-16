@@ -1,29 +1,24 @@
 package fr.univavignon.pokedex.api;
 
-import main.java.fr.univavignon.pokedex.api.IPokedex;
-import main.java.fr.univavignon.pokedex.api.IPokedexFactory;
-import main.java.fr.univavignon.pokedex.api.IPokemonFactory;
-import main.java.fr.univavignon.pokedex.api.IPokemonMetadataProvider;
+import main.java.fr.univavignon.pokedex.api.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mockito;
 
 public class PokedexFactoryTests {
-    private IPokedex pokedex;
+    private PokemonFactory pokemonFactory;
+    private PokemonMetadataProvider pokemonMetadataProvider;
+    private PokedexFactory pokedexFactory;
 
     @Before
-    public void init() throws Exception {
-        IPokemonFactory pokemonFactory = Mockito.mock(IPokemonFactory.class);
-        IPokemonMetadataProvider pokemonMetadataProvider = Mockito.mock(IPokemonMetadataProvider.class);
-        IPokedexFactory pokedexFactory = Mockito.mock(IPokedexFactory.class);
-
-        Mockito.when(pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory)).thenReturn(Mockito.mock(IPokedex.class));
-        pokedex = pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory);
+    public void init() {
+        pokemonFactory = new PokemonFactory();
+        pokemonMetadataProvider = new PokemonMetadataProvider();
+        pokedexFactory = new PokedexFactory();
     }
 
     @Test
     public void okIfPokedexNotNull() {
-        Assert.assertTrue(pokedex != null);
+        Assert.assertNotNull(pokedexFactory.createPokedex(pokemonMetadataProvider, pokemonFactory));
     }
 }
