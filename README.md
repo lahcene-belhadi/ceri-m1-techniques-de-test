@@ -1,6 +1,13 @@
+(Le badge de Codecov fonctionne pas) 
+
 [![codecov](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=3AQZXYLFQW)](https://codecov.io/gh/lahcene-belhadi/ceri-m1-techniques-de-test) [![CircleCI](https://dl.circleci.com/status-badge/img/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/lahcene-belhadi/ceri-m1-techniques-de-test/tree/master) ![Checkstyle](target/site/badges/checkstyle-result.svg)
 
 Belhad Lahcène - Groupe ILSEN Alt 2
+
+# TP 6
+## Rapport
+La classe fournie par la Team Rocket présente, contrairement à ce qu'ils avancent. En effet, pour commencer, le code est assez mal optimisé et redondant en plus d'être peu lisible. Par exemple, dans la méthode qui génère les statistiques aléatoire d'un Pokémon, ils créent 1 000 000 d'instances de la classe Random alors qu'une seule aurait suffit (en plus de leur faire économiser de la RAM). En outre, certaines variables sont déclarées et jamais initialisée. Ensuite, la plupart des standards de rédaction de code en Java ne sont pas respéctée, on dirait qu'ils ont voulu écrire du C.
+Les tests que j'ai rédigé passent pour leur classe, mais je suis certain qu'il est possible de trouver plus de comportement étranges. Cependant vu la lisibilité du code, je n'ai pas trouvé le moyen de tester tout cela (vu l'heure également).
 
 # UCE Génie Logiciel Avancé : Techniques de tests
 
