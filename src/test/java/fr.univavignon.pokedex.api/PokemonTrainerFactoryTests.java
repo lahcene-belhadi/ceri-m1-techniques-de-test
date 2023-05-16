@@ -19,6 +19,5 @@ public class PokemonTrainerFactoryTests {
     public void okIfPokemonTrainerIsNotNull() {
         PokedexFactory pokedexFactory = new PokedexFactory();
         Assert.assertNotNull(pokemonTrainerFactory.createTrainer("Zizou", Team.MYSTIC, pokedexFactory));
-        ;
     }
 }
