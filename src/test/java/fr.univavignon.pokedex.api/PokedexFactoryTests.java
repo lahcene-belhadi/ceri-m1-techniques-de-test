@@ -1,6 +1,8 @@
 package fr.univavignon.pokedex.api;
 
-import main.java.fr.univavignon.pokedex.api.*;
+import main.java.fr.univavignon.pokedex.api.PokedexFactory;
+import main.java.fr.univavignon.pokedex.api.PokemonFactory;
+import main.java.fr.univavignon.pokedex.api.PokemonMetadataProvider;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -78,13 +78,30 @@ public class Pokedex implements IPokedex {
         return pokedex;
     }
 
+    /**
+     * Creates a Pokemon
+     *
+     * @param index Pokemon index.
+     * @param cp    Pokemon CP.
+     * @param hp    Pokemon HP.
+     * @param dust  Required dust for upgrading pokemon.
+     * @param candy Required candy for upgrading pokemon.
+     * @return the newly created Pokemon
+     */
     @Override
     public Pokemon createPokemon(int index, int cp, int hp, int dust, int candy) {
         return pokemonFactory.createPokemon(index, cp, hp, dust, candy);
     }
 
+    /**
+     * Returns the Pokemon's metadata
+     *
+     * @param index Index of the pokemon to retrieve metadata for.
+     * @return the Pokemon's metadata
+     * @throws PokedexException when the Pokemon is not found
+     */
     @Override
     public PokemonMetadata getPokemonMetadata(int index) throws PokedexException {
-       return pokemonMetadataProvider.getPokemonMetadata(index);
+        return pokemonMetadataProvider.getPokemonMetadata(index);
     }
 }
